@@ -259,7 +259,7 @@ comment:
   giscus:
     repo: MikuHello/Hexo-Site
     repo_id: R_kgDOQTXpgA
-    category: General    # Recommend use Announcements
+    category: Announcements    # Recommend use Announcements
     category_id: DIC_kwDOQTXpgM4Cxr2A
     reactions_enabled: true   # Option values: true | false
 
