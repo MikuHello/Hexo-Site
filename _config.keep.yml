@@ -231,7 +231,7 @@ comment:
   gitalk:
     github_id: MikuHello        # GitHub repo owner
     github_admins:    # GitHub Admins (in Array type), optional
-    repository: comments       # Repository name to store issues
+    repository: Hexo-Site       # Repository name to store issues
     client_id: Ov23liY1xPhRfXeIRBd2        # GitHub Application Client ID
     client_secret: 49d854ab54f4db24eb52d6e462b6514957d0180e    # GitHub Application Client Secret
     proxy:            # GitHub oauth request reverse proxy for CORS
