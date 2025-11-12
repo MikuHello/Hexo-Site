@@ -152,7 +152,7 @@ post:
   reward:
     enable: true        # Option values: true | false
     img_link: https://fastly.jsdelivr.net/gh/MikuHello/Assets/reward.jpg            # Image link for the payment QR code
-    text: 呜呜呜 fufu要吃米~                # Custom reward text, Can be null
+    text: 打赏作者                # Custom reward text, Can be null
     icon:                # Custom reward icon, Can be null
 
 
