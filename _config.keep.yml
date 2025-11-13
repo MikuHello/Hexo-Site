@@ -75,7 +75,7 @@ social_contact:
     # 同时将您的链接更改为图片链接。
     # 例如 `weixin: img | ./images/qrcode.png`
     github: https://github.com/MikuHello          # GitHub
-	bilibili: https://space.bilibili.com/2035035843
+    bilibili: https://space.bilibili.com/2035035843
     #weixin:          # 微信
     #qq:              # QQ
     #weibo:           # 微博
@@ -340,14 +340,4 @@ footer:
 inject:
   enable: false  # 自定义注入。可选值: true | false
   css:
-    -
-    # 例如
-    # - /css/custom-1.css
-    # - /css/custom-2.css
-    # - ...
   js:
-    -
-    # 例如
-    # - /js/custom-1.js
-    # - /js/custom-2.js
-    # - ...
