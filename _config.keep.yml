@@ -1,267 +1,267 @@
 ## ======================================================================================
 ## Hexo Theme Keep
-## Documents: https://keep-docs.xpoet.cn
-## Repository: https://github.com/XPoet/hexo-theme-keep
+## 文档: https://keep-docs.xpoet.cn
+## 仓库: https://github.com/XPoet/hexo-theme-keep
 ## ======================================================================================
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/base_info.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/base_info.html
 # ---------------------------------------------------------------------------------------
 base_info:
-  # Theme primary color
+  # 主题原色
   primary_color: "#39c5bb"
 
-  # Blog website title
-  title: 𝓡𝓪𝓲𝓵𝓰𝓾𝓷's Blog
+  # 博客网站标题
+  title: Railgun's Blog
 
-  # Blog website author name
-  author: MikuHello
+  # 博客网站作者名称
+  author: Railgun
 
-  # Author avatar, You can use local image path or image link
+  # 作者头像，您可以使用本地图片路径或图片链接
   avatar: https://fastly.jsdelivr.net/gh/MikuHello/Assets/B_compress_1m.png
 
-  # Website LOGO, You can use local image path or image link
+  # 网站 LOGO，您可以使用本地图片路径或图片链接
   logo: https://fastly.jsdelivr.net/gh/MikuHello/Assets/Logo_Full.png
 
-  # Website favicon, You can use local image path or image link
+  # 网站 favicon，您可以使用本地图片路径或图片链接
   favicon: https://fastly.jsdelivr.net/gh/MikuHello/Assets/Logo_Full.png
   
-  # Option values: light | dark
+  # 可选值: light | dark (亮色 | 暗色)
   mode: dark
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/menu.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/menu.html
 # ---------------------------------------------------------------------------------------
-# If you want to enable a new navigation menu, you need to create a corresponding page
-# e.g. to enable categories, you need to execute `hexo new page categories`
-# Use `||` to set icon for navigation menu, e.g. `home: / || fa-solid fa-home`
+# 如果您想启用新的导航菜单，您需要创建相应的页面
+# 例如：要启用 categories (分类)，您需要执行 `hexo new page categories`
+# 使用 `||` 为导航菜单设置图标，例如 `home: / || fa-solid fa-home`
 menu:
-  home: /                        || fa-solid fa-home
-  archives: /archives            || fa-solid fa-box-archive
+  home: /                      || fa-solid fa-home
+  archives: /archives          || fa-solid fa-box-archive
   tags: /tags                  || fa-solid fa-tags
   links: /links                || fa-solid fa-link
   about: /about                || fa-solid fa-user-graduate
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/first_screen.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/first_screen.html
 # ---------------------------------------------------------------------------------------
 first_screen:
-  enable: true  # Option values: true | false
+  enable: true  # 可选值: true | false (开启 | 关闭)
 
-  # First screen background image in light mode, You can use local image path or image link
+  # 亮色模式下的首屏背景图片，您可以使用本地图片路径或图片链接
   background_img: /images/bg.svg
 
-  # First screen background image in dark mode, You can use local image path or image link
+  # 暗色模式下的首屏背景图片，您可以使用本地图片路径或图片链接
   background_img_dark: /images/bg.svg
 
-  # First screen description
-  # You can use the "||" to begin a newline, maximum is two lines.
+  # 首屏描述
+  # 您可以使用 "||" 来换行，最多两行
   description: Strive to become a network layman. o(*////▽////*)q
 
-  # If enable hitokoto, first screen description is different every time when you enter the website
-  hitokoto: false      # Option values: true | false
+  # 如果启用 hitokoto (一言)，每次进入网站时首屏描述都会不同
+  hitokoto: false      # 可选值: true | false
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/social_contact.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/social_contact.html
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: true      # Option values: true | false
+  enable: true      # 可选值: true | false
   links:
-    # Fill in your social platform links here, e.g. `github: https://github.com/XPoet`
-    # If you want to click open the picture, you need to add a prefix `img | `,
-    # at the same time change your link to the image link.
-    # e.g. `weixin: img | ./images/qrcode.png`
+    # 在这里填写您的社交平台链接，例如 `github: https://github.com/XPoet`
+    # 如果您希望点击打开图片，您需要添加前缀 `img | `
+    # 同时将您的链接更改为图片链接。
+    # 例如 `weixin: img | ./images/qrcode.png`
     github: https://github.com/MikuHello          # GitHub
 	bilibili: https://space.bilibili.com/2035035843
-    #weixin:          # WeChat
+    #weixin:          # 微信
     #qq:              # QQ
-    #weibo:           # WeiBo
-    #zhihu:           # ZhiHu
+    #weibo:           # 微博
+    #zhihu:           # 知乎
     #twitter:         # Twitter
     #x:               # X
     #facebook:        # Facebook
-    #email:           # Email
+    #email:           # 电子邮件
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/scroll.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/scroll.html
 # ---------------------------------------------------------------------------------------
 scroll:
-  # Show progress bar in top when page scroll
-  progress_bar: true  # Option values: true | false
+  # 页面滚动时在顶部显示进度条
+  progress_bar: true  # 可选值: true | false
 
-  # Show percent when page scroll
-  percent: true       # Option values: true | false
+  # 页面滚动时显示百分比
+  percent: true       # 可选值: true | false
 
-  # Hide header in top when page scroll
-  hide_header: true    # Option values: true | false
+  # 页面滚动时隐藏顶部导航栏
+  hide_header: true    # 可选值: true | false
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/home.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/home.html
 # ---------------------------------------------------------------------------------------
 home:
-  # Website announcement in home page
+  # 主页上的网站公告
   announcement: 搭建中
 
-  # Show category in home page post block
-  category: true           # Option values: true | false
+  # 在主页文章块中显示分类
+  category: true           # 可选值: true | false
 
-  # Show tags in home page post block
-  tag: true                # Option values: true | false
+  # 在主页文章块中显示标签
+  tag: true                # 可选值: true | false
 
-  # Set the datetime type of home page post block
-  post_datetime: updated    # Option values: updated | created
+  # 设置主页文章块的日期时间类型
+  post_datetime: updated    # 可选值: updated (更新时间) | created (创建时间)
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/post.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/post.html
 # ---------------------------------------------------------------------------------------
 post:
-  # Author badge in the post
+  # 文章中的作者徽章
   author_badge:
-    enable: true         # Option values: true | false
+    enable: true         # 可选值: true | false
 
-    # If true, show Lv1, Lv2, Lv3 ...
-    # If false, show custom badge
-    level_badge: false    # Option values: true | false
+    # 如果为 true，显示 Lv1, Lv2, Lv3 ...
+    # 如果为 false，显示自定义徽章
+    level_badge: false    # 可选值: true | false
 
-    # Custom badge array, You can be fill one or more item
+    # 自定义徽章数组，您可以填写一项或多项
     custom_badge: 𝓡𝓪𝓲𝓵𝓰𝓾𝓷
 
-  # Post word count
-  # Depend on Hexo Plugin: hexo-wordcount (`npm install hexo-wordcount`)
-  # See: https://github.com/willin/hexo-wordcount
+  # 文章字数统计
+  # 依赖 Hexo 插件: hexo-wordcount (`npm install hexo-wordcount`)
+  # 参见: https://github.com/willin/hexo-wordcount
   word_count:
-    wordcount: true     # Word count, one post. Option values: true | false
-    min2read: true      # Time to read, one post. Option values: true | false
+    wordcount: true     # 字数统计 (单篇文章)。可选值: true | false
+    min2read: true      # 阅读时长 (单篇文章)。可选值: true | false
 
-  # Post datetime
-  datetime_format: "YYYY-MM-DD HH:mm:ss"  # Datetime format. e.g. "YYYY-MM-DD HH:mm:ss"
+  # 文章日期时间
+  datetime_format: "YYYY-MM-DD HH:mm:ss"  # 日期时间格式。例如 "YYYY-MM-DD HH:mm:ss"
 
-  # Post copyright info
-  copyright_info: true  # Option values: true | false
+  # 文章版权信息
+  copyright_info: true  # 可选值: true | false
 
-  # Post share
-  share: true           # Option values: true | false
+  # 文章分享
+  share: true           # 可选值: true | false
 
-  # Reward author
+  # 打赏作者
   reward:
-    enable: true        # Option values: true | false
-    img_link: https://fastly.jsdelivr.net/gh/MikuHello/Assets/reward.jpg            # Image link for the payment QR code
-    text: 打赏作者                # Custom reward text, Can be null
-    icon:                # Custom reward icon, Can be null
+    enable: true        # 可选值: true | false
+    img_link: https://fastly.jsdelivr.net/gh/MikuHello/Assets/reward.jpg            # 付款二维码的图片链接
+    text:                # 自定义打赏文本，可为空
+    icon:                # 自定义打赏图标，可为空
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/code_block.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/code_block.html
 # ---------------------------------------------------------------------------------------
 code_block:
-  # Toolbar include: "code copy", "code block collapse" and "code language"
+  # 工具栏包括："复制代码", "折叠代码块" 和 "代码语言"
   tools:
-    enable: true            # Option values: true | false
-    style: default           # Option values: default | mac
-  highlight_theme: default   # Option values: default | obsidian
+    enable: true            # 可选值: true | false
+    style: default           # 可选值: default (默认) | mac (mac 风格)
+  highlight_theme: default   # 高亮主题。可选值: default | obsidian
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/toc.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/toc.html
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: true      # Option values: true | false
+  enable: true      # 可选值: true | false
 
-  # Automatically add list number to toc
-  number: false      # Option values: true | false
+  # 自动为目录添加列表编号
+  number: false      # 可选值: true | false
 
-  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-  expand_all: false  # Option values: true | false
+  # 如果为 true，文章中的所有级别的目录都将显示，而不仅仅是激活的部分
+  expand_all: true  # 可选值: true | false
 
-  # If true, auto open TOC every time when you enter post page
-  init_open: true    # Option values: true | false
+  # 如果为 true，每次进入文章页面时自动打开目录
+  init_open: true    # 可选值: true | false
 
-  # TOC layout on post page
-  layout: right      # Option values: left | right
+  # 文章页面上的目录布局
+  layout: right      # 可选值: left (左侧) | right (右侧)
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/website_count.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/website_count.html
 # ---------------------------------------------------------------------------------------
 website_count:
-  # busuanzi
-  # See: http://ibruce.info/2015/04/04/busuanzi/
+  # 不蒜子
+  # 参见: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
-    enable: true     # Option values: true | false
-    site_uv: true    # Option values: true | false
-    site_pv: true    # Option values: true | false
-    page_pv: true    # Option values: true | false
+    enable: true     # 可选值: true | false
+    site_uv: true    # 网站访客数。可选值: true | false
+    site_pv: true    # 网站访问量。可选值: true | false
+    page_pv: true    # 页面阅读量。可选值: true | false
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/local_search.html
-# Depend on Hexo Plugin: hexo-generator-searchdb (`npm install hexo-generator-searchdb`)
-# See: https://github.com/theme-next/hexo-generator-searchdb
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/local_search.html
+# 依赖 Hexo 插件: hexo-generator-searchdb (`npm install hexo-generator-searchdb`)
+# 参见: https://github.com/theme-next/hexo-generator-searchdb
 # ---------------------------------------------------------------------------------------
 local_search:
-  enable: true   # Option values: true | false
-  preload: true  # Preload the search data when the page loads. Option values: true | false
+  enable: true   # 可选值: true | false
+  preload: true  # 页面加载时预加载搜索数据。可选值: true | false
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/comment.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/comment.html
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: true   # Option values: true | false
-  use: giscus     # Option values: valine | gitalk | twikoo | waline | giscus | artalk | disqus
+  enable: true   # 可选值: true | false
+  use: giscus     # 可选值: valine | gitalk | twikoo | waline | giscus | artalk | disqus
 
   # Valine
-  # See: https://github.com/xCss/Valine
+  # 参见: https://github.com/xCss/Valine
   #      https://valine.js.org
   valine:
-    appid:           # Your leancloud application appid
-    appkey:          # Your leancloud application appkey
-    server_urls:     # Your Server URL
-    placeholder:     # Input box placeholder
+    appid:           # 您的 leancloud 应用 appid
+    appkey:          # 您的 leancloud 应用 appkey
+    server_urls:     # 您的服务器 URL
+    placeholder:     # 输入框占位符
 
   # Gitalk
-  # See: https://github.com/gitalk/gitalk
+  # 参见: https://github.com/gitalk/gitalk
   #      https://gitalk.github.io
   gitalk:
-    github_id:        # GitHub repo owner
-    github_admins:    # GitHub Admins (in Array type), optional
-    repository:       # Repository name to store issues
+    github_id:        # GitHub 仓库所有者
+    github_admins:    # GitHub 管理员 (数组类型)，可选
+    repository:       # 存储 issues 的仓库名称
     client_id:        # GitHub Application Client ID
     client_secret:    # GitHub Application Client Secret
-    proxy:            # GitHub oauth request reverse proxy for CORS
+    proxy:            # 用于 CORS 的 GitHub oauth 请求反向代理
 
   # Twikoo
-  # See: https://github.com/imaegoo/twikoo
+  # 参见: https://github.com/imaegoo/twikoo
   #      https://twikoo.js.org
   twikoo:
-    env_id:          # Environment ID
-    region:          # Environment region, Can be null
-    version: 1.6.39  # Twikoo version, default use v1.6.39
+    env_id:          # 环境 ID
+    region:          # 环境区域，可为空
+    version: 1.6.39  # Twikoo 版本，默认使用 v1.6.39
 
   # Waline
-  # See: https://github.com/walinejs/waline
+  # 参见: https://github.com/walinejs/waline
   #      https://waline.js.org/guide/get-started.html
   waline:
-    server_url:         # Server URL
-    reaction: false     # Post reactions, option values: true | false
-    version: 3.3.2      # Waline version, default use v3.3.2
+    server_url:         # 服务器 URL
+    reaction: false     # 文章反应，可选值: true | false
+    version: 3.3.2      # Waline 版本，默认使用 v3.3.2
 
   # Giscus
-  # See: https://github.com/giscus/giscus
+  # 参见: https://github.com/giscus/giscus
   #      https://giscus.app
-  # Please generate your configuration items in https://giscus.app
+  # 请在 https://giscus.app 生成您的配置项
   giscus:
     repo: MikuHello/Hexo-Site
     repo_id: R_kgDOQTXpgA
-    category: Announcements    # Recommend use Announcements
+    category: Announcements    # 推荐使用 Announcements
     category_id: DIC_kwDOQTXpgM4Cxr2A
-    reactions_enabled: true   # Option values: true | false
+    reactions_enabled: true   # 可选值: true | false
     mapping: pathname
     emit_metadata: false
     input_position: bottom
@@ -270,84 +270,84 @@ comment:
     loading: lazy
 
   # Artalk
-  # See: https://github.com/ArtalkJS/Artalk
+  # 参见: https://github.com/ArtalkJS/Artalk
   #      https://artalk.js.org
   artalk:
-    server:                    # Server URL
+    server:                    # 服务器 URL
 
   # Disqus
-  # See: https://disqus.com/
+  # 参见: https://disqus.com/
   disqus:
     shortname:                 # Disqus Shortname
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/rss.html
-# Depend on Hexo Plugin: hexo-generator-feed (`npm install hexo-generator-feed`)
-# See: https://github.com/hexojs/hexo-generator-feed
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/rss.html
+# 依赖 Hexo 插件: hexo-generator-feed (`npm install hexo-generator-feed`)
+# 参见: https://github.com/hexojs/hexo-generator-feed
 # ---------------------------------------------------------------------------------------
 rss:
-  enable: true  # Option values: true | false
+  enable: true  # 可选值: true | false
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/lazyload.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/lazyload.html
 # ---------------------------------------------------------------------------------------
 lazyload:
-  enable: true  # Option values: true | false
+  enable: true  # 可选值: true | false
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/cdn.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/cdn.html
 # ---------------------------------------------------------------------------------------
 cdn:
-  enable: true       # Option values: true | false
-  provider: cdnjs     # Option values: cdnjs | jsdelivr | unpkg
+  enable: true       # 可选值: true | false
+  provider: cdnjs     # 可选值: cdnjs | jsdelivr | unpkg
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/pjax.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/pjax.html
 # ---------------------------------------------------------------------------------------
 pjax:
-  enable: true  # Option values: true | false
+  enable: true  # 可选值: true | false
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/footer.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/footer.html
 # ---------------------------------------------------------------------------------------
 footer:
-  since: 2025            # The starting year of your website, Can be null
-  word_count: true      # Option values: true | false
+  since: 2025            # 您网站的起始年份，可为空
+  word_count: true      # 网站总字数统计。可选值: true | false
 
   site_deploy:
-    enable: true        # Option values: true | false
-    provider: cloudflare     # Option values: github | vercel | netlify | cloudflare | gitee | aliyun | tencent_cloud | upyun
-    url: https://hexo-site.pages.dev                 # Your deployment provider url, Can be null
+    enable: true        # 可选值: true | false
+    provider: cloudflare     # 部署提供商。可选值: github | vercel | netlify | cloudflare | gitee | aliyun | tencent_cloud | upyun
+    url: https://hexo-site.pages.dev                 # 您的部署提供商网址，可为空
 
   record:
-    enable: false        # Option values: true | false
+    enable: false        # 备案信息。可选值: true | false
     list:
-      - code:            # record code of your website
-        link:            # record link of your website, Can be null
-      # e.g.
-      # - code: ICP 001
+      - code:            # 您网站的备案号
+        link:            # 您网站的备案链接，可为空
+      # 例如
+      # - code: ICP 备 001 号
       # - link: https://beian.miit.gov.cn
 
 
 # ---------------------------------------------------------------------------------------
-# Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/inject.html
+# 文档: https://keep-docs.xpoet.cn/basis/configuration-guide/inject.html
 # ---------------------------------------------------------------------------------------
 inject:
-  enable: false  # Option values: true | false
+  enable: false  # 自定义注入。可选值: true | false
   css:
     -
-    # e.g.
+    # 例如
     # - /css/custom-1.css
     # - /css/custom-2.css
     # - ...
   js:
     -
-    # e.g.
+    # 例如
     # - /js/custom-1.js
     # - /js/custom-2.js
     # - ...
